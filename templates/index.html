@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AnimalInt - MLOps Platform & Bio-Acoustic Intelligence</title>
+  <link rel="stylesheet" href="/static/css/styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🦅</text></svg>">
+</head>
+<body>
+
+  <!-- Header Banner -->
+  <header>
+    <div class="header-container">
+      <div class="brand-section">
+        <div class="brand-icon">🦅</div>
+        <div class="brand-text">
+          <h1>AnimalInt MLOps Platform</h1>
+          <p>Bio-Acoustic Intelligence Collection & Neural Signal Processing Pipeline</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation Tabs -->
+    <nav class="tab-nav">
+      <button class="tab-btn active" data-tab="tab-description">
+        📖 1. Description of AnimalInt
+      </button>
+      <button class="tab-btn" data-tab="tab-architecture">
+        ⚡ 2. Pipeline Architecture
+      </button>
+      <button class="tab-btn" data-tab="tab-application">
+        ☁️ 3. COMINT (Classification) Application
+      </button>
+    </nav>
+  </header>
+
+  <!-- Main Content Body -->
+  <main class="content-area">
+
+    <!-- PAGE 1: Description of AnimalInt -->
+    <section id="tab-description" class="tab-pane active">
+      
+      <!-- Hero Goal Box -->
+      <div class="glass-card hero-box">
+        <h2>Goal</h2>
+        <p>To use emissions from the animal kingdom as examples of how to collect different types of intelligences.</p>
+      </div>
+
+      <!-- Intelligence Types Section -->
+      <h2 class="section-title">
+        Intelligence Types
+        <span class="tag">Military INT Definitions applied to Bio-Emissions</span>
+      </h2>
+
+      <!-- Row 1: SIGINT, COMINT, ELINT -->
+      <div class="grid-3col">
+        
+        <!-- SIGINT Card -->
+        <div class="int-card">
+          <div class="int-header">
+            <span class="int-badge badge-comint">SIGINT</span>
+          </div>
+          <h3>SIGINT (COMINT & ELINT)</h3>
+          <p class="desc">Intelligence derived from electronic signals and communications. Data through air-waves, electronic cabling, and space.</p>
+        </div>
+
+        <!-- COMINT Card -->
+        <div class="int-card">
+          <div class="int-header">
+            <span class="int-badge badge-comint">COMINT</span>
+          </div>
+          <h3>COMINT</h3>
+          <p class="desc">Intelligence derived from the communications between living entities.<br><strong>Goal:</strong> Determine what is being said, to whom, and why.</p>
+          <div class="example-list">
+            <div class="example-item"><strong>Human Example:</strong> Voice, text, video between people</div>
+            <div class="example-item"><strong>Animal Example:</strong> Bird Calls</div>
+            <div class="example-item"><strong>Data Type:</strong> Audio files or Mel Spectrograms</div>
+          </div>
+        </div>
+
+        <!-- ELINT Card -->
+        <div class="int-card">
+          <div class="int-header">
+            <span class="int-badge badge-elint">ELINT</span>
+          </div>
+          <h3>ELINT</h3>
+          <p class="desc">Intelligence derived from non-communication signals from hardware and electronic signatures of equipment, electromagnetic (RF/radar) signals.<br><strong>Goal:</strong> Determine capabilities, location, and operating frequencies of equipment.</p>
+          <div class="example-list">
+            <div class="example-item"><strong>Human Example:</strong> Equipment radar signatures</div>
+            <div class="example-item"><strong>Animal Example:</strong> No animal equivalent because signals collected are electromagnetic; however bat echolocation is conceptually similar, but an acoustic instead of electromagnetic transmission.</div>
+            <div class="example-item"><strong>Data Type:</strong> Inphase and Quadrature (I/Q) data and Pulse Descriptor Words (PDWs).</div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Row 2: ACINT & MASINT on the same row -->
+      <div class="grid-2col" style="margin-bottom: 2rem;">
+        
+        <!-- ACINT Card -->
+        <div class="int-card">
+          <div class="int-header">
+            <span class="int-badge badge-acint">ACINT</span>
+          </div>
+          <h3>ACINT</h3>
+          <p class="desc">Intelligence derived from physical sounds unintentionally left behind by an object moving through the world.</p>
+          <div class="example-list">
+            <div class="example-item"><strong>Human Example:</strong> Sound of a jet engine</div>
+            <div class="example-item"><strong>Animal Example:</strong> Sound of bird flapping its wings</div>
+            <div class="example-item"><strong>Data Type:</strong> Audio files or Mel Spectrograms</div>
+          </div>
+        </div>
+
+        <!-- MASINT Card -->
+        <div class="int-card">
+          <div class="int-header">
+            <span class="int-badge badge-masint">MASINT</span>
+          </div>
+          <h3>MASINT / Acoustic MASINT</h3>
+          <p class="desc">
+            <strong>MASINT:</strong> Analysis of unique physical signatures (both intentional active emissions, and unintentional physical or chemical byproducts) of an object.<br>
+            <strong>Acoustic MASINT:</strong> Subset focusing on acoustic signatures (such as active sonar or vocalizations) transmitted to map or probe an environment.
+          </p>
+          <div class="example-list">
+            <div class="example-item"><strong>Human Example:</strong> Submarine sonar</div>
+            <div class="example-item"><strong>Animal Example:</strong> Bat echolocation</div>
+            <div class="example-item"><strong>Data Type:</strong> Audio files or Mel Spectrograms</div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Table Section -->
+      <div class="glass-card">
+        <h2 class="section-title">
+          Machine Learning in a Non-Enterprise Environment
+          <span class="tag">INT Classification Matrix</span>
+        </h2>
+        <div class="table-responsive">
+          <table class="custom-table">
+            <thead>
+              <tr>
+                <th>INT</th>
+                <th>Animal Example</th>
+                <th>Human Example</th>
+                <th>Data Type</th>
+                <th>ML Model Dev.</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>COMINT</strong><br><span style="color: var(--text-muted); font-size:0.8rem;">(Meaning)</span></td>
+                <td>Species Vocalization</td>
+                <td>Conversation</td>
+                <td>Audio Files</td>
+                <td><code>Multimodal Gemini</code> or <code>Chirp + LLM Adapter</code></td>
+              </tr>
+              <tr>
+                <td><strong>COMINT</strong><br><span style="color: var(--text-muted); font-size:0.8rem;">(Classification)</span></td>
+                <td>Signature Calls</td>
+                <td>Voice ID</td>
+                <td>Mel Spectrograms<br>Audio Files</td>
+                <td><code>CNN based on image files</code><br><code>Transfer learning from YAMNet or AST</code></td>
+              </tr>
+              <tr>
+                <td><strong>ELINT</strong></td>
+                <td>N/A</td>
+                <td>Radar Signatures</td>
+                <td>I/Q Data<br>PDW</td>
+                <td><code>1D CNN</code><br><code>LSTM</code></td>
+              </tr>
+              <tr>
+                <td><strong>ACINT</strong><br><span style="color: var(--text-muted); font-size:0.8rem;">(Identification)</span></td>
+                <td>Wings flapping</td>
+                <td>Jet engine</td>
+                <td>Mel Spectrograms<br>Audio Files</td>
+                <td><code>CNN based on image files</code><br><code>Transfer learning from YAMNet or AST</code></td>
+              </tr>
+              <tr>
+                <td><strong>MASINT</strong><br><span style="color: var(--text-muted); font-size:0.8rem;">(Identification)</span></td>
+                <td>Bat echolocation</td>
+                <td>Submarine Sonar</td>
+                <td>Mel Spectrograms<br>Audio Files</td>
+                <td><code>CNN based on image files</code><br><code>Transfer learning from YAMNet or AST</code></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- PAGE 2: Pipeline Architecture -->
+    <section id="tab-architecture" class="tab-pane">
+      <div class="glass-card" style="text-align: center; padding: 3rem 1.5rem;">
+        <h2 class="section-title" style="justify-content: center; margin-bottom: 0.5rem;">
+          Pipeline Architecture
+        </h2>
+        <p style="color: var(--text-muted);">Content removed for now.</p>
+      </div>
+    </section>
+
+    <!-- PAGE 3: COMINT (Classification) Application -->
+    <section id="tab-application" class="tab-pane">
+      <div class="grid-2col">
+        
+        <!-- Left Pane: Identify Bird Type -->
+        <div class="glass-card">
+          <h2 class="section-title">
+            Identify Bird Type
+            <span class="tag">AI Audio Classifier</span>
+          </h2>
+
+          <form id="identifyForm">
+            
+            <!-- Dropzone -->
+            <div class="upload-dropzone" id="dropzoneIdentify">
+              <div class="upload-icon">🔍</div>
+              <h3 style="font-size: 1.1rem; font-weight: 700; margin-bottom: 0.3rem;">Drag & Drop Audio Recording to Classify</h3>
+              <p style="color: var(--text-muted); font-size: 0.88rem; margin-bottom: 1rem;">Only <strong>.mp3</strong> or <strong>.wav</strong> audio files allowed</p>
+              <button type="button" class="btn-primary" onclick="document.getElementById('fileInputIdentify').click()">
+                Browse Audio File
+              </button>
+              <input type="file" id="fileInputIdentify" accept=".mp3,.wav,audio/mpeg,audio/wav,audio/x-wav" style="display: none;">
+              <div id="selectedFileNameIdentify" style="margin-top: 1rem; color: var(--accent-cyan); font-weight: 600; font-size: 0.9rem;"></div>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="btn-primary" style="width: 100%; justify-content: center; font-size: 1.05rem;">
+              🦅 Identify Bird Species
+            </button>
+
+            <!-- Progress Bar -->
+            <div id="identifyProgress" style="display: none; margin-top: 1rem; background: rgba(0,0,0,0.5); height: 8px; border-radius: 4px; overflow: hidden;">
+              <div id="identifyProgressFill" style="width: 0%; height: 100%; background: linear-gradient(90deg, var(--accent-cyan), var(--accent-purple)); transition: width 0.3s ease;"></div>
+            </div>
+
+            <!-- In-Card Result Notification -->
+            <div id="identifyResult" style="display: none; margin-top: 1.25rem; padding: 1rem; background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.3); border-radius: var(--radius-sm); font-size: 0.9rem;"></div>
+
+          </form>
+        </div>
+
+        <!-- Right Pane: Add audio files to ML Training Data -->
+        <div class="glass-card">
+          <h2 class="section-title">
+            Add audio files to ML Training Data
+            <span class="tag">GCS Dataset Ingestion</span>
+          </h2>
+
+          <form id="uploadForm">
+            
+            <!-- Species Upload Drop Down -->
+            <div class="form-group">
+              <label for="speciesSelect">Recording Species</label>
+              <select id="speciesSelect" class="form-select">
+                <option value="North-Island-Brown-Kiwi">🥝 North Island Brown-Kiwi</option>
+                <option value="canadian_goose">🪿 Canadian Goose</option>
+                <option value="mallard_duck">🦆 Mallard Duck</option>
+              </select>
+            </div>
+
+            <!-- Dropzone -->
+            <div class="upload-dropzone" id="dropzone">
+              <div class="upload-icon">🎙️</div>
+              <h3 style="font-size: 1.1rem; font-weight: 700; margin-bottom: 0.3rem;">Drag & Drop Audio Recording Here</h3>
+              <p style="color: var(--text-muted); font-size: 0.88rem; margin-bottom: 1rem;">Only <strong>.mp3</strong> or <strong>.wav</strong> audio files allowed</p>
+              <button type="button" class="btn-primary" onclick="document.getElementById('fileInput').click()">
+                Browse Audio File
+              </button>
+              <input type="file" id="fileInput" accept=".mp3,.wav,audio/mpeg,audio/wav,audio/x-wav" style="display: none;">
+              <div id="selectedFileName" style="margin-top: 1rem; color: var(--accent-cyan); font-weight: 600; font-size: 0.9rem;"></div>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="btn-primary" style="width: 100%; justify-content: center; font-size: 1.05rem;">
+              🚀 Upload Recording to Google Cloud Bucket
+            </button>
+
+            <!-- Progress Bar -->
+            <div id="uploadProgress" style="display: none; margin-top: 1rem; background: rgba(0,0,0,0.5); height: 8px; border-radius: 4px; overflow: hidden;">
+              <div id="progressFill" style="width: 0%; height: 100%; background: linear-gradient(90deg, var(--accent-cyan), var(--accent-teal)); transition: width 0.3s ease;"></div>
+            </div>
+
+            <!-- In-Card Result Notification -->
+            <div id="uploadResult" style="display: none; margin-top: 1.25rem; padding: 1rem; background: rgba(56, 189, 248, 0.1); border: 1px solid rgba(56, 189, 248, 0.3); border-radius: var(--radius-sm); font-size: 0.9rem;"></div>
+
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    AnimalInt MLOps Bio-Acoustic Platform &bull; Built with Python & FastAPI &bull; DeepMind Agentic Coding
+  </footer>
+
+  <script src="/static/js/app.js"></script>
+</body>
+</html>
